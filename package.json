@@ -1,0 +1,34 @@
+{
+  "name": "fly-simulate",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/cxx001/fly-simulate.git",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^16.0.2"
+  },
+  "dependencies": {
+    "async": "^3.2.2",
+    "chalk": "^1.0.0",
+    "chokidar": "^1.0.2",
+    "commander": "^8.3.0",
+    "events": "^3.3.0",
+    "fire-fs": "^0.2.4",
+    "fire-path": "^0.1.9",
+    "fire-url": "^0.1.7",
+    "globby": "^2.0.0",
+    "winston": "^1.0.0"
+  }
+}
